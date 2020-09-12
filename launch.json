@@ -1,0 +1,8 @@
+{
+  "controllers": ["xbox_360"],
+  "midi": ["xbox_360_midi"],
+  "size": [670, 520],
+  "midi_port": "LoopBe Internal MIDI 1",
+  "alt": "AudioBox USB 96 MIDI Out 1"
+}
+

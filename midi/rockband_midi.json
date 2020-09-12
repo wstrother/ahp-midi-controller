@@ -1,0 +1,52 @@
+{
+  "controller_name": "rockband_controller",
+  "text_color": [128, 128, 255],
+
+  "note_channel": 3,
+  "note_position": [10, 320],
+  "note_color": [255, 0, 255],
+  "notes": {
+    "A": 48,
+    "B": 54,
+    "X": 57,
+    "Y": 44
+  },
+
+  "cc_channel": 4,
+  "cc_position": [550, 330],
+  "cc_colors": [[128, 128, 255], [64, 64, 64]],
+  "cc": [
+    {
+      "control": 4,
+      "device": ["Dpad_up", "Dpad_down"],
+      "type": "fader"
+    },
+    {
+      "control": 5,
+      "device": ["Dpad_right", "Dpad_left"],
+      "type": "fader"
+    },
+    {
+      "control": 6,
+      "device": ["Forward", "Back"],
+      "type": "fader"
+    }
+  ],
+
+  "pc_channel": 5,
+  "pc_position": [10, 450],
+  "pc_color": [255, 125, 0],
+  "pc": {
+    "Forward": 2,
+    "Back": 3,
+    "Dpad_up": 4,
+    "Dpad_down": 5,
+    "Dpad_left": 6,
+    "Dpad_right": 7,
+    "Pedal": {
+      "type": "latch",
+      "on": 0,
+      "off": 1
+    }
+  }
+}

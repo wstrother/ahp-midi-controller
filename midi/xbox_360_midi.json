@@ -1,0 +1,73 @@
+{
+  "controller_name": "xbox_360",
+  "text_color": [128, 128, 255],
+
+  "note_channel": 3,
+  "note_position": [10, 20],
+  "note_color": [255, 0, 255],
+  "notes": {
+    "A": 48,
+    "B": 50,
+    "X": 52,
+    "Y": 54,
+    "R": 56,
+    "L": 58
+  },
+
+  "cc_channel": 4,
+  "cc_position": [550, 30],
+  "cc_colors": [[128, 128, 255], [64, 64, 64]],
+  "cc": [
+    {
+      "control": 0,
+      "device": "Left_stick_y"
+    },
+    {
+      "control": 1,
+      "device": "Left_stick_x"
+    },
+    {
+      "control": 2,
+      "device": "Left_stick_y",
+      "range": 1
+    },
+    {
+      "control": 3,
+      "device": "Left_stick_y",
+      "range": -1
+    },
+    {
+      "control": 4,
+      "device": "Left_stick_x",
+      "range": 1
+    },
+    {
+      "control": 5,
+      "device": "Left_stick_x",
+      "range": -1
+    },
+    {
+      "control": 6,
+      "device": "R_trigger",
+      "range": 1
+    },
+    {
+      "control": 7,
+      "device": "L_trigger",
+      "range": 1
+    },
+    {
+      "control": 8,
+      "device": "Right_stick_y"
+    },
+    {
+      "control": 9,
+      "device": "Right_stick_x"
+    }
+  ],
+
+  "pc_channel": 5,
+  "pc_position": [10, 450],
+  "pc_color": [255, 125, 0],
+  "pc": {}
+}
